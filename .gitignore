@@ -10,6 +10,7 @@
 
 # Output
 *.out
+bin/
 
 # Go workspace
 go.work
@@ -20,6 +21,7 @@ go.work.sum
 .vscode/
 *.swp
 *.swo
+*~
 
 # OS
 .DS_Store
@@ -30,3 +32,10 @@ Thumbs.db
 *.db-journal
 *.db-wal
 *.db-shm
+
+# Claude Code local config (gitignored by convention)
+.claude/settings.local.json
+CLAUDE.local.md
+
+# MCP server config (machine-specific paths)
+.mcp.json
