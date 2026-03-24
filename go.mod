@@ -6,7 +6,7 @@ require (
 	github.com/glebarez/sqlite v1.11.0
 	github.com/google/go-cmp v0.7.0
 	google.golang.org/adk v0.5.0
-	google.golang.org/genai v1.40.0
+	google.golang.org/genai v1.51.0
 	gorm.io/gorm v1.31.1
 )
 
